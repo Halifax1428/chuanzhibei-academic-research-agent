@@ -7,6 +7,7 @@ __pycache__/
 .pytest_cache/
 data/
 outputs/
+output/
 runtime_data/
 langchain/agent/runtime_data/
 lessons/data/*.sqlite3

@@ -37,4 +37,6 @@ Set-Location langchain
 ..\.venv\Scripts\python.exe -m unittest agent.tests.test_document_translation_contract agent.tests.test_document_identity agent.tests.test_answer_verification agent.tests.test_academic_search agent.tests.test_citation_graph_links agent.tests.test_citation_graph_review agent.tests.test_copilot_quality agent.tests.test_multi_paper_reasoning agent.tests.test_python_sandbox -v
 ```
 
+技术文档见 [`docs/科研论文智能体技术文档.pdf`](../docs/科研论文智能体技术文档.pdf)，Markdown 源文件见 [`docs/技术文档.md`](../docs/技术文档.md)。
+
 解析、OCR 和引用图谱以启发式抽取为主；复杂公式语义、图像内容理解和全领域引用网络仍受输入 PDF 与数据范围限制。
