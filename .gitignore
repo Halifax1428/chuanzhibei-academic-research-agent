@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+**/.env
+**/.env.*
+!**/.env.example
+.pytest_cache/
+data/
+outputs/
+runtime_data/
+langchain/agent/runtime_data/
+lessons/data/*.sqlite3
+langchain/lessons/data/*.sqlite3
+.idea/
+**/.idea/
+tmp/
+langchain/lessons/
